@@ -34,7 +34,7 @@ Database which contains announcements entities.
 * schema created after start up
 * running test task script will fill test database with data
 
-### Scheduler
+## Scheduler
 It is configured in properties file. Its fixed delay time must be tuned based on resources and individual requirements.
 Scheduler is working as a single thread which responsibility is to flush cached data to database. This operation should not
 be done often to avoid performance issues.
